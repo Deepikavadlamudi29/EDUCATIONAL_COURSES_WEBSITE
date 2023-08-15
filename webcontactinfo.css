@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("./img/bg10.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+    color: white;
+}
+
+.contact-section {
+    width: 45%;
+}
+
+.contact-section h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: beige;
+}
+
+.contact-info {
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-info .icon {
+    margin-right: 20px;
+}
+
+.contact-info img {
+    width: 40px;
+    height: 40px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #ff6600;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #e55e00;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="webcontactinfo.css">
+</head>
+
+<body>
+    <div class="contact-page">
+        <div class="contact-section">
+            <h2>Contact Information</h2>
+            <div class="contact-info">
+                <div class="icon">
+                    <img src="./img/icons8-phone-100.png" alt="Phone Icon">
+                </div>
+                <div class="details">
+                    <p>Mobile: +123 456 7890</p>
+                    <p>Email: example@example.com</p>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div class="icon">
+                    <img src="./img/icons8-address-100.png" alt="Address Icon">
+                </div>
+                <div class="details">
+                    <p>Main Branch Address:</p>
+                    <p>123 Street, City, Country</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact-section">
+            <h2>Get in Touch</h2>
+            <form action="contact.php" method="post" class="contact-form">
+                <div class="inputBox">
+                    <input type="text" placeholder="your name" name="name">
+                    <input type="email" placeholder="your email"name="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="your number" name="phone" >
+                </div>
+                <textarea placeholder="say something" name="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn" name="send">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
